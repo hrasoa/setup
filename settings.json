@@ -1,0 +1,148 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.validate": ["javasctipt"],
+  "eslint.workingDirectories": ["./"],
+  "npm.packageManager": "pnpm",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "workbench.colorCustomizations": {
+    "[poimandres]": {
+      "editor.selectionBackground": "#42675a93",
+      "editorBracketMatch.border": "#5eb3a1",
+      "tab.inactiveBackground": "#30334080",
+      "tab.activeBackground": "#1b1e28"
+    }
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "[poimandres]": {
+      "textMateRules": [
+        {
+          "scope": ["keyword"],
+          "settings": {
+            "foreground": "#5eb3a1"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.type.alias",
+            "entity.name.type",
+            "storage.modifier",
+            "support.type.primitive",
+            "variable.other.readwrite meta.block meta.function source"
+          ],
+          "settings": {
+            "foreground": "#f087bd"
+          }
+        },
+        {
+          "scope": ["meta.function-call entity.name.function"],
+          "settings": {
+            "foreground": "#a6adcd"
+          }
+        }
+      ]
+    },
+    "[GitHub Light Monochrome Focused]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "entity.name.class",
+            "entity.name.function",
+            "entity.name.method",
+            "keyword",
+            "markup.bold",
+            "markup.bold",
+            "markup.heading entity.name",
+            "markup.heading",
+            "meta.diff.range",
+            "meta.diff.range",
+            "meta.separator",
+            "meta.separator",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "storage.type.java",
+            "storage.type",
+            "storage",
+            "string.regexp constant.character.escape",
+            "support.class",
+            "support.constant",
+            "support.function",
+            "support",
+            "variable.parameter.function"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": [
+            "entity.name.tag",
+            "keyword.control.export",
+            "keyword.on.graphql",
+            "keyword.operation.graphql",
+            "meta.import keyword",
+            "support.class.component"
+          ],
+          "settings": {
+            "foreground": "#0C9671"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.type.alias",
+            "entity.name.type",
+            "meta.block keyword",
+            "storage.modifier",
+            "support.type.graphql",
+            "support.type.primitive"
+          ],
+          "settings": {
+            "foreground": "#D0679D"
+          }
+        },
+        {
+          "scope": [
+            "constant.language.import-export-all",
+            "entity.other.attribute-name",
+            "meta.import variable.other",
+            "meta.object.member",
+            "meta.objectliteral",
+            "meta.selectionset.graphql",
+            "storage.type",
+            "variable"
+          ],
+          "settings": {
+            "foreground": "#566d81"
+          }
+        },
+        {
+          "scope": [
+            "entity.name.function",
+            "meta.embedded.expression keyword",
+            "keyword.operator.logical",
+            "keyword.operator.comparison",
+            "punctuation.definition.string"
+          ],
+          "settings": {
+            "foreground": "#587793"
+          }
+        }
+      ]
+    }
+  },
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "editor.fontSize": 12.5
+}
