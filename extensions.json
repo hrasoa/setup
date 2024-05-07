@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "huytd.github-light-monochrome",
+    "magicstack.edgedb",
+    "maximus136.change-string-case",
+    "meta.relay",
+    "pmndrs.pmndrs",
+    "rust-lang.rust-analyzer",
+    "tauri-apps.tauri-vscode",
+    "yash-singh.stylex",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
